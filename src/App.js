@@ -3,6 +3,7 @@ import "./App.css";
 
 export default function App() {
   const [counter, setCounter] = useState(0);
+  
 
   const increase = () => {
     setCounter((count) => count + 1);
